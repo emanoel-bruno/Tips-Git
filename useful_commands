@@ -1,0 +1,4 @@
+#/bin/bash
+
+# Create a empty git repository
+git init
