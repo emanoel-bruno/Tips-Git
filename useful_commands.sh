@@ -18,6 +18,9 @@ git status -s
 # Display commit history
 git log
 
+# Display commit history at a short form
+git log --oneline
+
 # Commit a file (Change from staged to commited)
 git commit -m "<Commit Name>"
 
