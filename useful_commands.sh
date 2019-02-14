@@ -12,6 +12,9 @@ git add <File name>
 # Tell status of working directory and staging area
 git status
 
+# Tell status with a short answer
+git status -s
+
 # Display commit history
 git log
 
