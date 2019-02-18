@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 
 # git reset shoud only be used on local changes 
 # Remove the especified file from the staging area and leave the file unchanged

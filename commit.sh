@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 
 # Commit  (Change from staged to commited)
 git commit -m "<Commit Name>" 

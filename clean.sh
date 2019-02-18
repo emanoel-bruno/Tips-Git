@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 
 # Show files that would be clean(untracked files) from working directory
 git clean -n

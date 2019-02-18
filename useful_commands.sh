@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 
 # Create a empty git repository
 git init
@@ -14,6 +14,9 @@ git status
 
 # Tell status with a short answer
 git status -s
+
+# Download a copy of a repository
+git clone <repository url>
 
 # Push changes to the remote repository
 git push <branch origin> <branch destiny>

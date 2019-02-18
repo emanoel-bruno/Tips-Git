@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 
 # List all brants 
 git branch

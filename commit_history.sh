@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 
 # Display commit history
 git log

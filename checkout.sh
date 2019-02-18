@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 
 # Update all files to match the commit id
 git checkout <commit id>

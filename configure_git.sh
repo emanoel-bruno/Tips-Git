@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 
 # List all existing git configuration
 git config --global --list

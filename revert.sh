@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 
 # Back your project to the last commit
 git revert HEAD
