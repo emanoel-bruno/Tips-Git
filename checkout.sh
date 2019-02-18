@@ -6,6 +6,11 @@ git checkout <commit id>
 # Create a branch to remain changes made on a "detached HEAD state" and switch to it
 git checkout -b <New Branch Name>
 
+
+#Get out of "detached HEAD state"
+git checkout <branch name>
+
+
 # Update a file to match the commit id
 git checkout <commit id> <filename>
 
