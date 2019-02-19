@@ -13,7 +13,7 @@ eval "$(ssh-agent -s)"
 ssh-add <path private key>
 
 # Copy content of puclic key to clipboard
-clip <path public key>
+xclip <path public key>
 
 # Connect with github
 ssh -T -p 443 git@ssh.github.com
