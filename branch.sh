@@ -3,8 +3,14 @@
 # List all brants 
 git branch
 
+# List all brants include hides
+git branch -a
+
 # Create a branch
 git branch <Branch name>
+
+# Delete a branch
+git branch -d <branch name>
 
 # Change to a branch 
 git checkout <Branch name>

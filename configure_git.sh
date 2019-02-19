@@ -14,3 +14,13 @@ git config --global url."git@github.com:".insteadOf "https://github.com/"
 
 # Force git to use always https
 git config --global url."https://github".insteadOf git://github
+
+#configure custom git bash put this code on .bashrc and download the files "git-prompt.sh","git-completion.bash" to the your user foler "~"
+
+. ~/git-completion.bash
+. ~/git-prompt.sh
+export GIT_PS1_SHOWDIRTYSTATE=true
+export GIT_PS1_SHOWSTASHSTATE=true
+export GIT_PS1_SHOWUNTRACKEDFILES=true
+
+export PS1="\[\e[1;32m\][\u@\h\[\e[1;37m\] \[\e[1;33m\]\W\[\e[1;32m\]]\[\e[1;34m\] $(echo$(__git_ps1 " (%s)"))\[\e[01;32m\]\$\[\e[0m\] "

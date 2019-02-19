@@ -3,6 +3,9 @@
 # Display commit history
 git log
 
+# Display commit history of a branch
+git log --oneline <Branch Name>
+
 # Display last N commits history
 git log -n <N>
 
