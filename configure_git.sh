@@ -3,6 +3,12 @@
 # List all existing git configuration
 git config --global --list
 
+# Edit global settings file
+git config --global --edit
+
+# Change default git editor
+git config --global core.editor <editor command>
+
 # Configurate Name
 git config --global user.name "<Your Name>"
 
