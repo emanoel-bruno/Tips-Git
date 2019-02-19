@@ -9,8 +9,8 @@ ssh-keygen -t rsa -b 4096 -C  "<comment>"
 # Run ssh agent in background
 eval "$(ssh-agent -s)"
 
-# Add the ssh key to the ssh agent
-ssh-add <path public key>
+# Add the ssh key to the ssh agent ('private key is without .pub')
+ssh-add <path private key>
 
 # Copy content of puclic key to clipboard
 clip <path public key>
