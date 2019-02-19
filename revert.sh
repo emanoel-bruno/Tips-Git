@@ -3,5 +3,5 @@
 # Back your project to the last commit
 git revert HEAD
 
-# Back your project to the commit id
+# Back your project to the the state of the commit id
 git revert <commit id>
