@@ -21,9 +21,6 @@ git config --global url."git@github.com:".insteadOf "https://github.com/"
 # Force git to use always https
 git config --global url."https://github".insteadOf git://github
 
-# Configure p4merge as the default tool
-git config --global diff.tool p4merge
-
 
 # Configure custom git bash put this code on .bashrc and download the files 
 # "git-prompt.sh","git-completion.bash" to the your user foler "~"
