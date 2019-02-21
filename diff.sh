@@ -17,3 +17,6 @@ git diff <commit id> HEAD
 
 # Show the diferences between two commit
 git diff <1º commit id> <2º commit id> 
+
+# Show the diferences between one file and the staging area
+git diff -- <filename>
