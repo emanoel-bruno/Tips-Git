@@ -11,9 +11,9 @@ git log --stat
 
 # Display commit history the commit message with a especified string
 git log --grep="<regular expression(search expression)>"
+
 # Display commit history with all information of differations between the files
 git log -p
-
 
 # Display commit history oecorated
 git log --oneline --decorate 
@@ -26,6 +26,9 @@ git log --oneline --all
 
 # Display last N commits history
 git log -n <N>
+
+# Display last N commits history
+git log -<N>
 
 # Display commit history in a period of ids
 git log <since id>..<until id>
