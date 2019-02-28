@@ -6,6 +6,9 @@ git init
 # Add the all files of current folder to state staged
 git add *
 
+# or
+git add .
+
 # Add the a file to state staged
 git add <File name>
 

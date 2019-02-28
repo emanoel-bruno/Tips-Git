@@ -21,6 +21,13 @@ git config --global url."git@github.com:".insteadOf "https://github.com/"
 # Force git to use always https
 git config --global url."https://github".insteadOf git://github
 
+# Configure the git to dont create Backup file on merge conflict
+git config --global mergetool.KeepBackup false
+
+# Configure the git to dont create Backup file on merge conflict
+git config --global mergetool.KeepBackup true
+
+# ------------------------- Custon git bash
 
 # Configure custom git bash put this code on .bashrc and download the files 
 # "git-prompt.sh","git-completion.bash" to the your user foler "~"

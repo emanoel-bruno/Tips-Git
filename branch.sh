@@ -31,6 +31,9 @@ git checkout -b <New Branch name>
 # Change to a branch and create one based on another one
 git checkout -b <New Branch name> <Another Branch>
 
+# Delete a remote branch
+git push <remote_name> --delete <branch_name>
+
 # Master, Release, Development, Feature
 # Development -> Release
 # Feature -> Development
