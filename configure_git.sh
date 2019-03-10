@@ -27,6 +27,9 @@ git config --global mergetool.KeepBackup false
 # Configure the git to dont create Backup file on merge conflict
 git config --global mergetool.KeepBackup true
 
+# Configure git to push annoteted tags automatically
+git config --global push.followTags true
+
 # ------------------------- Custon git bash
 
 # Configure custom git bash put this code on .bashrc and download the files 
