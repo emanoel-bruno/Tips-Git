@@ -6,7 +6,7 @@ This is a repository designed to help begginers in git to use it better.
 
 * **Emanoel Bruno** - *Initial work* - [emanoel-bruno](https://github.com/emanoel-bruno)
 
-See also the list of [contributors](https://github.com/Tips-Git/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/emanoel-bruno/Tips-Git/contributors) who participated in this project.
 
 ## License
 
