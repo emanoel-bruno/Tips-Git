@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Cloning generally sets up both the names "origin and master" for you automatically
+# Cloning sets up both the "origin" for you automatically
 
 # Developer pushes his local changes into remote repository
 git push origin master

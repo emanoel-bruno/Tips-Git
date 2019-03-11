@@ -30,23 +30,16 @@ git config --global mergetool.KeepBackup true
 # Configure git to push annoteted tags automatically
 git config --global push.followTags true
 
-# ------------------------- Custon git bash
+# ------------------- Custom Git Bash ------------------------
 
-# Configure custom git bash put this code on .bashrc and download the files 
-# "git-prompt.sh","git-completion.bash" to the your user foler "~"
+## Arch Based System
 
-source ~/git-completion.bash
-source ~/git-prompt.sh
+### Install
 
-export GIT_PS1_SHOWDIRTYSTATE=true
-export GIT_PS1_SHOWSTASHSTATE=true
-export GIT_PS1_SHOWUNTRACKEDFILES=true
+sudo pacman -Syu yay
+yay -Syua bash-git-prompt
 
-
-export PS1="\[\e[1;32m\][\u@\h\[\e[1;37m\] \[\e[1;33m\]\W\[\e[1;32m\]]\[\e[1;34m\] $( __git_ps1 " (%s)" )\[\e[01;32m\]\$\[\e[0m\] "
-#------------------------------------------------
-
-# For arch based system add this to ~/.bashrc:
+# Add the code bellow to ~/.bashrc:
 if [ -f /usr/lib/bash-git-prompt/gitprompt.sh ]; then
 	# To only show the git prompt in or under a repository directory
 	GIT_PROMPT_ONLY_IN_REPO=1
@@ -61,6 +54,20 @@ fi
 
 export PS1="\[\e[1;32m\][\u@\h\[\e[1;37m\] \[\e[1;33m\]\W\[\e[1;32m\]]\[\e[01;32m\]\$\[\e[0m\] "
 
-# And install this
-sudo pacman -Syu yay
-yay -Syua bash-git-prompt
+## Other linux distros
+
+### Download the files "git-prompt.sh","git-completion.bash" to the your user foler "~"
+
+### Put this code on .bashrc  
+
+source ~/git-completion.bash
+source ~/git-prompt.sh
+
+export GIT_PS1_SHOWDIRTYSTATE=true
+export GIT_PS1_SHOWSTASHSTATE=true
+export GIT_PS1_SHOWUNTRACKEDFILES=true
+
+
+export PS1="\[\e[1;32m\][\u@\h\[\e[1;37m\] \[\e[1;33m\]\W\[\e[1;32m\]]\[\e[1;34m\] $( __git_ps1 " (%s)" )\[\e[01;32m\]\$\[\e[0m\] "
+#------------------------------------------------
+
