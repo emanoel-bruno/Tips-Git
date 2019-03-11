@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Commit  (Change from staged to commited) but open default git editor to define the name
+# Commit  (Change from staged to commited) but open default git editor to define the name of the commit
 git commit
 
 # Commit  (Change from staged to commited)
