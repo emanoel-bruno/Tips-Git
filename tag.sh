@@ -14,7 +14,7 @@ git show <tag-name>
 # Create a annotated tag with a message
 git tag -a <tag name> -m <Message>
 
-# Show thw type of tag (annotated tag shows "tag" and to lightweight tag shows "commit")
+# Show the type of tag (annotated tag shows "tag" and to lightweight tag shows "commit")
 git cat-file -t <tag-name>
 
 # Search for a tag
@@ -51,6 +51,6 @@ git checkout <tag-name>
 git checkout -b <branch name> <tag>
 
 # Annoted tags are stored like a full object in the git database
-# differently of the lightweight tag that is just a pointer
+# differently of the lightweight tag that is just a pointer to a commit
 
 # Its better ush only anottated tags to avoid tags crash

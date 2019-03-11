@@ -10,12 +10,12 @@ git log --oneline <Branch Name>
 git log --stat
 
 # Display commit history the commit message with a especified string
-git log --grep="<regular expression(search expression)>"
+git log --grep="<regular expression>"
 
 # Display commit history with all information of differations between the files
 git log -p
 
-# Display commit history oecorated
+# Display commit history with more visual information, like where HEAD is now
 git log --oneline --decorate 
 
 # Display commit history in a graph way

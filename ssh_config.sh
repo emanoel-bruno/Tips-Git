@@ -27,11 +27,12 @@ git remote set-url origin git@github.com:<username>/<repository name>.git
 # Add a password to the ssh key
 ssh-keygen -p
 
-# force git to use always ssh 
+# Force git to use always ssh 
 git config --global url."git@github.com:".insteadOf "https://github.com/"
 
 
 # ----------------------------------------------------------------------------
+
 # Configure back to use https
 git remote set-url origin <https url git repository>
 

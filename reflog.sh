@@ -14,7 +14,7 @@ git show HEAD@{<N>}
 # Acess a reference log N
 git show <branch>@{<time sintaxe>}
 
-# Go to the detached head state with your projec at the state of the reflog n
+# Go to the  thedetached head state with your project at the state of the reflog n
 git checkout HEAD@{N}
 
 # Show the diference on the time

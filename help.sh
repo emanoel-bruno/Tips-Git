@@ -12,5 +12,5 @@ git help -g
 # Acess a Git Guide 
 git help <Guide name>
 
-# help about a especific command 
+# Show information about an especific command 
 git help <command name>

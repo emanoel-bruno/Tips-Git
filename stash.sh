@@ -29,7 +29,7 @@ git checkout -- <file>
 # Retrieve a modification from the N stash
 git stash apply stash@{N}
 
-# Remove lastest stash
+# Remove latest stash
 git stash drop
 
 # Stash keeping the changes to staged files but stash unstaged
@@ -38,7 +38,7 @@ git stash --keep-index
 # Remove N stash
 git stash drop stash@{N}
 
-# Apply and drop lastest stash
+# Apply and drop latest stash
 git stash pop 
 
 # Apply and drop N stash
