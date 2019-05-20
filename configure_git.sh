@@ -36,8 +36,9 @@ git config --global push.followTags true
 
 ### Install
 
-sudo pacman -Syu yay
+sudo pacman -Syu yay bash-completion
 yay -Syua bash-git-prompt
+
 
 # Add the code bellow to ~/.bashrc:
 if [ -f /usr/lib/bash-git-prompt/gitprompt.sh ]; then
