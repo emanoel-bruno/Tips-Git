@@ -29,7 +29,7 @@ git clone --branch <tag_name> <repo_url>
 # or
 git clone -b <tag_name> <repo_url>
 
-# Download a copy of a repository branch with a specific tag
+# Download a copy of a repository with a specific tag and with --single-branch option to only clone history leading to tip of the tag
 git clone -b <tag_name> --single-branch --depth 1 <repo_url>
 
 # Push changes to the remote repository
