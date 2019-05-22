@@ -30,7 +30,9 @@ git clone --branch <tag_name> <repo_url>
 git clone -b <tag_name> <repo_url>
 
 # Download a copy of a repository with a specific tag and with --single-branch option to only clone history leading to tip of the tag
-git clone -b <tag_name> --single-branch --depth 1 <repo_url>
+git clone <repo_url> -b <tag_name> --single-branch <repo_url>
 
+ # Download a copy of a repository with a specific tag and with --depth 1 no history at all is cloned
+git clone <repo_url> -b <tag_name> --depth 1 
 # Push changes to the remote repository
 git push <branch origin> <branch destiny>
