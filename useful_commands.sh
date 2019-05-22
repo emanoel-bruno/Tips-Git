@@ -21,5 +21,8 @@ git status -s
 # Download a copy of a repository
 git clone <repository url>
 
+# Download a copy of a repository with a specific tag
+git clone --branch <tag_name> <repo_url>
+
 # Push changes to the remote repository
 git push <branch origin> <branch destiny>
