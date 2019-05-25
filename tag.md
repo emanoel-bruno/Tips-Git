@@ -1,56 +1,76 @@
-#!/bin/bash
+# Tags
 
-# Create a lightweight tag associeted to the last commit
-git tag <tag-name>
+## Create a lightweight tag associated to the last commit
 
-# Show all tags 
-git  tag --list
-# or
-git  tag -l
+    git tag <tag-name>
 
-# Show information about a tag
-git show <tag-name>
+## Create a annotated tag with a message
 
-# Create a annotated tag with a message
-git tag -a <tag name> -m <Message>
+    git tag -a <tag name> -m <Message>
 
-# Show the type of tag (annotated tag shows "tag" and to lightweight tag shows "commit")
-git cat-file -t <tag-name>
+## Show information about a tag
 
-# Search for a tag
-git tag -l <Pattern>
+    git show <tag-name>
 
-# or
-git tag --list <Pattern>
+## Show the type of tag (annotated tag shows "tag" and to lightweight tag shows "commit")
 
-# Compare two tags
-git diff <tag-1> <tag-2>
+    git cat-file -t <tag-name>
 
-# Delete a tag
-git tag <tag name> --delete
+## Show all tags
 
-# Update a tag
-git tag -a <tag name> -f  <commit-id>
+    git  tag --list
 
-# Delete a remote tag
-git push origin :<tag-name> 
+### Or
 
-# Push annoteted a tag
-git push origin <tag-name>
+    git  tag -l
 
-# Push annoteted tags only
-git push origin --follow-tags
+## Search for a tag
 
-# Push all the tags 
-git push origin --tags
+    git tag -l <Pattern>
 
-# Checkout to a tag (go to datached head)
-git checkout <tag-name>
+### Alternatively
 
-# Create a branch from a tag
-git checkout -b <branch name> <tag>
+    git tag --list <Pattern>
 
-# Annoted tags are stored like a full object in the git database
-# differently of the lightweight tag that is just a pointer to a commit
+## Compare two tags
 
-# Its better ush only anottated tags to avoid tags crash
+    git diff <tag-1> <tag-2>
+
+## Delete a tag
+
+    git tag <tag name> --delete
+
+## Update a tag
+
+    git tag -a <tag name> -f  <commit-id>
+
+## Delete a remote tag
+
+    git push origin <tag-name>
+
+## Push annotated a tag
+
+    git push origin <tag-name>
+
+## Push annotated tags only
+
+    git push origin --follow-tags
+
+## Push all the tags
+
+    git push origin --tags
+
+## Checkout to a tag (go to detached head)
+
+    git checkout <tag-name>
+
+## Create a branch from a tag
+
+    git checkout -b <branch name> <tag>
+
+## Details
+
+* Annotated tags are stored like a full object in the   git database
+differently of the lightweight tag that is just a pointer to a commit
+
+* Its better use only annotated tags to avoid tags crash

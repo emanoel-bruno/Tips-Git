@@ -6,7 +6,6 @@ git branch
 # List all remote branchs 
 git branch
 
-
 # List all branchs include remote
 git branch -a
 
