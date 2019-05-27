@@ -48,7 +48,7 @@
 
     git push origin --delete <tag-name>
 
-## Push a annotated tag
+## Push a tag
 
     git push origin <tag-name>
 
