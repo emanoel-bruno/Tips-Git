@@ -46,7 +46,7 @@
 
 ## Delete a remote tag
 
-    git push origin <tag-name>
+    git push origin --delete <tag-name>
 
 ## Push annotated a tag
 
