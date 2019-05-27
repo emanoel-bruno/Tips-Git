@@ -1,7 +1,11 @@
-#!/bin/bash
+# Remote
 
-# List existings remotes using the git remote command
-git remote -v
+## List existing remotes using the git remote command
 
-# Add a new remote address
-git remote add <name> <url>
+    git remote -v
+
+## Add a new remote address
+
+    git remote add <name> <url>
+
+## [< Back](README.md)

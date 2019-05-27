@@ -74,3 +74,5 @@
 differently of the lightweight tag that is just a pointer to a commit
 
 * Its better use only annotated tags to avoid tags crash
+
+## [< Back](README.md)

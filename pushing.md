@@ -1,14 +1,31 @@
-#!/bin/bash
+# Push
 
-# Cloning sets up both the "origin" for you automatically
+## Developer pushes his local changes into remote repository
 
-# Developer pushes his local changes into remote repository
-git push origin master
+    git push origin master
 
-# Developer pushes his local changes into remote repository
-git push <destiny> <Branch name>
+### alternatively
 
-# Push a new branch making a pull request
-git push -u origin <Branch name>
+    git push <destiny> <Branch name>
 
-#  Fist is need to pull before push if another person made a push before
+## Push a new branch making a pull request
+
+    git push -u origin <Branch name>
+
+## Developer forcedly pushes his local changes into remote repository
+
+    git push origin <your_branch_name> --force
+
+### or
+
+    git push origin <your_branch_name> -f
+
+## Options
+
+- If another person made a push before is necessary to pull before push
+
+- When you force a push it will delete your previous commit(s) and push your current one.
+
+- Cloning sets up both the "origin" for you automatically
+
+### [< Back](README.md)

@@ -1,53 +1,73 @@
-#!/bin/bash
+# Stash
 
-# Git stach is used to store unfineshed work to not lose data
+## Stash uncommitted changes
 
-# Stash  uncommited changes
-git stash
+    git stash
 
-# Stash  uncommited changes  inclusive untracked files
-git stash -u 
+## Stash uncommitted changes  inclusive untracked files
 
-# Stash  uncommited changes with a message
-git stash save <Message>
+    git stash -u
 
-# Show information about  a stash N
-git stash show stash@{N}
+## Stash uncommitted changes with a message
 
-#  List stash saved
-git stash list
+    git stash save <Message>
 
-# Retrieve a modification from the last stash
-git stash apply
+## Show information about  a stash N
 
-# Retrieve a modification from the last stash without lose the staging area
-git stash apply --index
+    git stash show stash@{N}
 
-# Back a file to the last commit reverting stash (unstaged changes)
-git checkout -- <file> 
+## List stash saved
 
-# Retrieve a modification from the N stash
-git stash apply stash@{N}
+    git stash list
 
-# Remove latest stash
-git stash drop
+## Retrieve a modification from the last stash
 
-# Stash keeping the changes to staged files but stash unstaged
-git stash --keep-index
+    git stash apply
 
-# Remove N stash
-git stash drop stash@{N}
+## Retrieve a modification from the last stash without lose the staging area
 
-# Apply and drop latest stash
-git stash pop 
+    git stash apply --index
 
-# Apply and drop N stash
-git stash pop stash@{N}
+## Back a file to the last commit reverting stash (unstaged changes)
 
-# Clear all stash
-git stash clear 
+    git checkout -- <file>
 
-# Move all changes stashed to a new branch
-git stash branch <branch name>
+## Retrieve a modification from the N stash
 
-# git stash default doesnt save untracked files
+    git stash apply stash@{N}
+
+## Remove latest stash
+
+    git stash drop
+
+## Stash keeping the changes to staged files but stash unstaged
+
+    git stash --keep-index
+
+## Remove N stash
+
+    git stash drop stash@{N}
+
+## Apply and drop latest stash
+
+    git stash pop
+
+## Apply and drop N stash
+
+    git stash pop stash@{N}
+
+## Clear all stash
+
+    git stash clear
+
+## Move all changes stashed to a new branch
+
+    git stash branch <branch name>
+
+## Details
+
+- Git stash default doesnt save untracked files
+
+- Git stach is used to store unfineshed work to not lose data
+
+## [< Back](README.md)

@@ -1,16 +1,23 @@
-#!/bin/bash
+# Help
 
-# List all comands
-git help
+## List all commands
 
-# List Subcommands
-git help -a
+    git help
 
-# List Git Guides
-git help -g
+## List sub commands
 
-# Acess a Git Guide 
-git help <Guide name>
+    git help -a
 
-# Show information about an especific command 
-git help <command name>
+## List Git Guides
+
+    git help -g
+
+## Access a Git Guide
+
+    git help <Guide name>
+
+## Show information about an specific command
+
+    git help <command name>
+
+## [< Back](README.md)

@@ -1,12 +1,17 @@
-#!/bin/bash
+# Merge
 
-# Merge the target branch with the current 
-git merge <branch>
+## Merge the target branch with the current 
 
-# Merge two branchs 
-git merge <target branch> <origin branch>
+    git merge <branch>
 
-# Merge two branchs without do fast foward
-git merge <target branch> <origin branch> --no-ff
+## Merge two branch 
 
-# If you find a conflict solve it and commit again
+    git merge <target branch> <origin branch>
+
+## Merge two branch without do fast forward
+
+    git merge <target branch> <origin branch> --no-ff
+
+## If you find a conflict solve it and commit again
+
+## [< Back](README.md)

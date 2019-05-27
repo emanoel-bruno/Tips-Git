@@ -1,43 +1,62 @@
-#!/bin/bash
+# Branch
 
-# List all local branchs 
-git branch
+## List all local branch
 
-# List all remote branchs 
-git branch
+    git branch
 
-# List all branchs include remote
-git branch -a
+## List all remote branch
 
-# Create a branch
-git branch <Branch name>
+    git branch -r
 
-# Delete a branch
-git branch -d <branch name>
+## List all branch
 
-# Force Delete a branch
-git branch -D <branch name>
+    git branch -a
 
-# Rename  a branch from name 'branch-1' to name 'branch-2'
-git branch -m <branch-1> <branch-2>
+## Create a branch
 
-# Change to a branch 
-git checkout <Branch name>
+    git branch <Branch name>
 
-# Create a branch and change to it
-git checkout -b <New Branch name>
+## Delete a branch
 
-# Create a branch based on another one and change to the new branch 
-git checkout -b <New Branch name> <Another Branch>
+    git branch -d <branch name>
 
-# Delete a remote branch
-git push <remote_name> --delete <branch_name>
+## Forcedly Delete a branch
 
+    git branch -D <branch name>
 
-# Default Branch Templates Name
-# Master, Release, Development, Feature
+## Rename a branch
 
-# Default branch flow
-# Development -> Release
-# Feature -> Development
-# Release -> Master
+    git branch -m <original name> <new name>
+
+## Change to a branch
+
+    git checkout <Branch name>
+
+## Create a branch and change to it
+
+    git checkout -b <New Branch name>
+
+## Create a branch based on another one and change to the new branch
+
+    git checkout -b <New branch name> <Base Branch>
+
+## Delete a remote branch
+
+    git push <remote_name> --delete <branch_name>
+
+## Details
+
+### Default Branch Templates Name
+
+- Master
+- Release
+- Development
+- Feature
+
+### Default branch flow
+
+- Development -> Release
+- Feature -> Development
+- Release -> Master
+
+## [< Back](README.md)

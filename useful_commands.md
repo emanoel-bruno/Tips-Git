@@ -1,38 +1,55 @@
-#!/bin/bash
+# Useful commands
 
-# Create a empty git repository
-git init
+## Create a empty git repository
 
-# Add the all files of current folder to state staged
-git add *
+    git init
 
-# or
-git add .
+## Add the all files of current folder to state staged
 
-# or
-git add --all
+    git add *
 
-# Add the a file to state staged
-git add <File name>
+### or
 
-# Tell status of working directory and staging area
-git status
+    git add .
 
-# Tell status with a short answer
-git status -s
+### alternatively
 
-# Download a copy of a repository
-git clone <repository url>
+    git add --all
 
-# Download a copy of a repository with a specific tag
-git clone --branch <tag_name> <repo_url>
-# or
-git clone -b <tag_name> <repo_url>
+## Add the a file to state staged
 
-# Download a copy of a repository with a specific tag and with --single-branch option to only clone history leading to tip of the tag
-git clone <repo_url> -b <tag_name> --single-branch <repo_url>
+    git add <File name>
 
- # Download a copy of a repository with a specific tag and with --depth 1 no history at all is cloned
-git clone <repo_url> -b <tag_name> --depth 1 
-# Push changes to the remote repository
-git push <branch origin> <branch destiny>
+## Tell status of working directory and staging area
+
+    git status
+
+## Tell status with a short answer
+
+    git status -s
+
+## Download a copy of a repository
+
+    git clone <repository url>
+
+## Download a copy of a repository with a specific tag
+
+    git clone --branch <tag_name> <repo_url>
+
+### equivalently
+
+    git clone -b <tag_name> <repo_url>
+
+## Download a copy of a repository with a specific tag and with --single-branch option to only clone history leading to tip of the tag
+
+    git clone <repo_url> -b <tag_name> --single-branch <repo_url>
+
+## Download a copy of a repository with a specific tag and with --depth 1 no history at all is cloned
+
+    git clone <repo_url> -b <tag_name> --depth 1
+
+## Push changes to the remote repository
+
+    git push <branch origin> <branch destiny>
+
+## [< Back](README.md)
