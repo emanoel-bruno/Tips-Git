@@ -12,6 +12,8 @@
 
     git merge <target branch> <origin branch> --no-ff
 
-## If you find a conflict solve it and commit again
+## Details
+
+- If you find a conflict solve it and commit again
 
 ## [< Back](README.md)
