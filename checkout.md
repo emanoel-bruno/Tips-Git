@@ -18,7 +18,11 @@
 
 ## Update a file to the latest commit id
 
-    git checkout HEAD <filename>
+    git checkout HEAD <filename/folder>
+
+### short version
+
+    git checkout <filename/folder>
 
 ## Change to a remote branch
 
