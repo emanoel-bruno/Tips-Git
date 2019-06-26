@@ -8,21 +8,21 @@
 
     git reset
 
-## Remove all files from staged area and reset the changes on the files to the most recent commit
+## Remove all files from staged area and reset the changes on the files to the latest commit(HEAD)
 
-    git reset --hard <commit id>
-
-## Remove all files from staged area and move head to specific folder
-
-    git reset --soft <commit id>
-
+    git reset --hard
+    
 ## Reset the commit history to a previous commit
 
     git reset <commit id>
 
-## Reset the commit history  to a commit id and reset the changes on the files to the same commit id:
+## Remove all files from staged area and move head to specific commit id
 
-    git reset <commit id> --hard
+    git reset --soft <commit id>
+
+## Reset the commit history to a commit id and reset the changes on the files to the same commit id:
+
+    git reset --hard <commit id> 
 
 ## Details
 
